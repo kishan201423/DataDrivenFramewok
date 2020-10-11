@@ -1,0 +1,8 @@
+19:29:18.904 [main] INFO  base.TestBase - Login successfull
+19:29:18.990 [main] INFO  base.TestBase - Login Page is displayed
+19:29:34.493 [main] INFO  base.TestBase - Homepage is displayed
+19:30:02.691 [main] INFO  base.TestBase - Registeration successfull
+20:08:04.511 [main] INFO  base.TestBase - Login successfull
+20:08:04.574 [main] INFO  base.TestBase - Login Page is displayed
+20:08:18.259 [main] INFO  base.TestBase - Homepage is displayed
+20:33:11.948 [main] INFO  base.TestBase - Login successfull

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 136.026 s <<< FAILURE! - in TestSuite
+testcases.RegisterTestCases.createAccount[userfitst, userlast, user, 555-1234, 43 Franklin Lane Everett, MA 02149, Everett, United States, Massachusetts, useriyt, useriyt](1)  Time elapsed: 15.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [Your Account Has Been Created] but found [Your Account Has Been Created!]
+	at testcases.RegisterTestCases.createAccount(RegisterTestCases.java:55)
+

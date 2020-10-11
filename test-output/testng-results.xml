@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="108549" started-at="2020-10-11T14:40:37Z" finished-at="2020-10-11T14:42:26Z">
+    <groups>
+    </groups>
+    <test name="homepage" duration-ms="42618" started-at="2020-10-11T14:40:37Z" finished-at="2020-10-11T14:41:20Z">
+      <class name="testcases.HomePageTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.HomePageTestCases@6f8e8894]" name="setUp" is-config="true" duration-ms="37813" started-at="2020-10-11T20:10:37Z" finished-at="2020-10-11T20:11:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatePageOpen()[pri:0, instance:testcases.HomePageTestCases@6f8e8894]" name="validatePageOpen" duration-ms="1668" started-at="2020-10-11T20:11:15Z" finished-at="2020-10-11T20:11:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageOpen -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.HomePageTestCases@6f8e8894]" name="tearDown" is-config="true" duration-ms="3011" started-at="2020-10-11T20:11:17Z" finished-at="2020-10-11T20:11:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.HomePageTestCases -->
+    </test> <!-- homepage -->
+    <test name="login" duration-ms="35080" started-at="2020-10-11T14:41:22Z" finished-at="2020-10-11T14:41:58Z">
+      <class name="testcases.LoginTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.LoginTestCases@16c069df]" name="setUp" is-config="true" duration-ms="23950" started-at="2020-10-11T20:11:22Z" finished-at="2020-10-11T20:11:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTestCases@16c069df]" name="login" duration-ms="5978" started-at="2020-10-11T20:11:50Z" data-provider="getLoginestData" finished-at="2020-10-11T20:11:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:testcases.LoginTestCases@16c069df]" name="loginPageTitleTest" duration-ms="18" started-at="2020-10-11T20:11:56Z" finished-at="2020-10-11T20:11:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTestCases@16c069df]" name="tearDown" is-config="true" duration-ms="1753" started-at="2020-10-11T20:11:56Z" finished-at="2020-10-11T20:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginTestCases -->
+    </test> <!-- login -->
+    <test name="registeration" duration-ms="27919" started-at="2020-10-11T14:41:58Z" finished-at="2020-10-11T14:42:26Z">
+      <class name="testcases.RegisterTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.RegisterTestCases@6dd7b5a3]" name="setUp" is-config="true" duration-ms="12418" started-at="2020-10-11T20:11:58Z" finished-at="2020-10-11T20:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegisterTestCases@6dd7b5a3]" name="createAccount" duration-ms="15167" started-at="2020-10-11T20:12:10Z" data-provider="getLoginestData" finished-at="2020-10-11T20:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userfitst]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[userlast]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[555-1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[43 Franklin Lane Everett, MA 02149]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Everett]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Massachusetts]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[useriyt]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[useriyt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.RegisterTestCases@6dd7b5a3]" name="tearDown" is-config="true" duration-ms="160" started-at="2020-10-11T20:12:25Z" finished-at="2020-10-11T20:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.RegisterTestCases -->
+    </test> <!-- registeration -->
+  </suite> <!-- Suite -->
+</testng-results>

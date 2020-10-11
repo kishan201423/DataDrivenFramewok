@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utilties.Listeners"/>
+  </listeners>
+  <test name="homepage(failed)">
+    <classes>
+      <class name="testcases.HomePageTestCases">
+        <methods>
+          <include name="validatePageOpen"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.HomePageTestCases -->
+    </classes>
+  </test> <!-- homepage(failed) -->
+  <test name="login(failed)">
+    <classes>
+      <class name="testcases.LoginTestCases">
+        <methods>
+          <include name="loginPageTitleTest"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.LoginTestCases -->
+    </classes>
+  </test> <!-- login(failed) -->
+  <test name="registeration(failed)">
+    <classes>
+      <class name="testcases.RegisterTestCases">
+        <methods>
+          <include name="setUp"/>
+          <include name="createAccount"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.RegisterTestCases -->
+    </classes>
+  </test> <!-- registeration(failed) -->
+</suite> <!-- Failed suite [Suite] -->
