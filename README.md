@@ -69,6 +69,6 @@ Install and set up Java
 
 Install and set up Maven plugin
 
-Clone the project and set webdriver path in both config.properties file. Run as maven project. use below commands to run Navigate to the project main folder using terminal or cmd and type below commands mvn compile mvn test
+Clone the project and set webdriver path in config.properties file. Run as maven project. use below commands to run Navigate to the project main folder using terminal or cmd and type below commands mvn compile mvn test
 
 <b>Framework Developed By:</b> Kishan Kumar
