@@ -58,6 +58,7 @@ Xml files.
 
 1.pom.xml 
 Contains all the plugins and dependencies that are required to run the test as maven project. TestNG.xml is configured in this pom.xml to trigger the test.
+<br>
 2.TestNG.xml 
 Contains the all class names that are to be triggered to run the complete suite of test cases.
 
