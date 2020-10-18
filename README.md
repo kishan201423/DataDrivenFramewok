@@ -43,6 +43,7 @@ This package contains the extend reporter class to generante an Html test report
 
 <img src ="Images/Src%20Main%20Java.PNG">
 
+
 testcasesPackage 
 This package contains test classes where all the test cases are written using the methods that are defined in page classes to validate expense tracker end to end as per the user stories. These test classes read the input data like user name, password, category names and expense details to add that is provided in the DataProviderClass to perform actions.
 
@@ -59,6 +60,7 @@ Xml files.
 Contains all the plugins and dependencies that are required to run the test as maven project. TestNG.xml is configured in this pom.xml to trigger the test.
 2.TestNG.xml 
 Contains the all class names that are to be triggered to run the complete suite of test cases.
+
 <img src ="Images/Src%20Test%20Java.PNG">
 
 Instructions to run the test automation
